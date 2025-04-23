@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+#hero {
+  border: 2px solid;
+  border-style: outset;
+  padding: 50px;
+  background-color: hsla(0, 0%, 0%, 0.03);
+  font-family: Montserrat, Helvetica, Arial;
+}
+
+.gallery {
+  margin: 10em;
+  display: inline-block;
+  border: 5px solid;
+  border-style: ridge;
+}
+
+.gallery img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.gallery .description {
+  padding: 10px;
+  text-align: center;
+  font-family: Montserrat, Helvetica, Arial;
+}
